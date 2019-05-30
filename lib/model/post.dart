@@ -11,6 +11,7 @@ class Post {
   final String description;
 }
 
+
 final List<Post> posts = [
   Post(
     title: 'Candy Shop',
