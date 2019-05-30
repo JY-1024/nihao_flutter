@@ -48,6 +48,7 @@ class Home extends StatelessWidget {
             posts[index].title,
             style: Theme.of(context).textTheme.title,
           ),
+          
           Text(
             posts[index].author,
             style: Theme.of(context).textTheme.title,
