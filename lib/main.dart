@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'demo/drawer_demo.dart';
+import 'demo/bottom_navigaiton_bar_demo.dart';
 import 'model/post.dart';
 
 void main() => runApp(App());
@@ -22,6 +23,7 @@ class App extends StatelessWidget {
 }
 
 class Home extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -64,6 +66,7 @@ class Home extends StatelessWidget {
           ],
         ),
         drawer: DrawerDemo(),
+        bottomNavigationBar: BottomNavigationBarDemo(),
       ),
     );
   }
