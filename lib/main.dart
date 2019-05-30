@@ -78,6 +78,14 @@ class Home extends StatelessWidget {
                 currentAccountPicture: CircleAvatar(
                   backgroundImage: NetworkImage('https://resources.ninghao.org/images/wanghao.jpg'),
                 ),
+                decoration: BoxDecoration(
+                  color: Colors.yellow[100],
+                  image: DecorationImage(
+                    image: NetworkImage('https://resources.ninghao.org/images/childhood-in-a-picture.jpg'),
+                    fit: BoxFit.cover,
+                    colorFilter: ColorFilter.mode(Colors.yellow[400].withOpacity(0.6), BlendMode.hardLight),
+                  ),
+                ),
               ),
               ListTile(
                 title: Text('Message', textAlign: TextAlign.right,),
